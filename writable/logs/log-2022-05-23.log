@@ -1,0 +1,154 @@
+CRITICAL - 2022-05-23 01:29:07 --> Call to a member function destroy() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Auth->logout()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-23 02:16:51 --> Class 'App\Models\UserModel' not found
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Auth->validasi()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-23 02:20:05 --> Class 'App\Models\UserModel' not found
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Auth->validasi()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-23 21:11:40 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Kriteria->index()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-23 21:11:53 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Kriteria->index()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-23 21:12:19 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Kriteria->index()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-23 21:16:47 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Kriteria->index()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-23 21:16:49 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Kriteria->index()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-23 21:21:17 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Kriteria->index()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-23 21:34:54 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Kriteria->index()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-23 21:35:04 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Kriteria->index()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-23 21:35:12 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Kriteria->index()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-23 21:37:30 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Kriteria->index()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-23 21:38:03 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Kriteria->index()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-23 21:38:08 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Kriteria->index()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-23 21:38:56 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Kriteria->index()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-23 21:44:34 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Kriteria->index()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-23 21:44:38 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Kriteria->index()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-23 21:45:54 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Kriteria->index()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-23 21:46:15 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Kriteria->index()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-23 21:46:55 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Kriteria->index()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-23 23:04:39 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Kriteria->index()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

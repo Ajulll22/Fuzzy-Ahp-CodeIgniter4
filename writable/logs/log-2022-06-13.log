@@ -1,0 +1,93 @@
+CRITICAL - 2022-06-13 06:06:51 --> Undefined index: kriterie
+#0 C:\xampp\htdocs\ci4\app\Controllers\Hitung.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Hitung->index()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hitung))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-13 06:12:17 --> Call to undefined method App\Models\SubkriteriaModel::getResultArray
+#0 C:\xampp\htdocs\ci4\app\Controllers\Hitung.php(27): CodeIgniter\Model->__call('getResultArray', Array)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Hitung->index()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hitung))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-13 06:32:02 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\ci4\app\Controllers\Hitung.php(26): array_unique(Array)
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Hitung->index()
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hitung))
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-06-13 06:33:23 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\ci4\app\Controllers\Hitung.php(26): array_unique(Array)
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Hitung->index()
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hitung))
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-06-13 06:36:59 --> Undefined variable: countIdKriteria
+#0 C:\xampp\htdocs\ci4\app\Views\hitung\index.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 111, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1089): CodeIgniter\View\View->render('hitung/index', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Hitung.php(33): view('hitung/index', Array)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Hitung->index()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hitung))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-13 06:38:31 --> Undefined variable: countIdKriteria
+#0 C:\xampp\htdocs\ci4\app\Views\hitung\index.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 111, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1089): CodeIgniter\View\View->render('hitung/index', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Hitung.php(38): view('hitung/index', Array)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Hitung->index()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hitung))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-13 06:38:53 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-13 06:39:24 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-13 06:40:12 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-13 06:40:50 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-13 06:45:59 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-13 07:02:10 --> Undefined offset: 0
+#0 C:\xampp\htdocs\ci4\app\Controllers\Hitung.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Hitung->index()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hitung))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-13 07:07:17 --> Array to string conversion
+#0 C:\xampp\htdocs\ci4\app\Views\hitung\index.php(117): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 117, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1089): CodeIgniter\View\View->render('hitung/index', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Hitung.php(38): view('hitung/index', Array)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Hitung->index()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hitung))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

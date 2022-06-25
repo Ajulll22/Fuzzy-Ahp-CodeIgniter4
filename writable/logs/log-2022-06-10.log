@@ -1,0 +1,56 @@
+ERROR - 2022-06-10 02:58:50 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-06-10 02:58:50 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ci4\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ci4\app\Controllers\Kriteria.php(16): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Kriteria->index()
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-06-10 02:59:06 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-06-10 02:59:06 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ci4\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ci4\app\Controllers\Hitung.php(22): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Hitung->index()
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hitung))
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-06-10 02:59:06 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in C:\xampp\htdocs\ci4\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\ci4\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Hitung), true)
+#2 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(234): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\ci4\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-10 06:10:51 --> Unsupported operand types
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Hitung->matrix()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hitung))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-10 06:12:02 --> Unsupported operand types
+#0 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Hitung->matrix()
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hitung))
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

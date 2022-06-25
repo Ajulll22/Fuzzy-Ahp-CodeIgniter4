@@ -1,0 +1,18 @@
+CRITICAL - 2022-06-19 06:05:22 --> array_push() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_push() ex...', 'C:\\xampp\\htdocs...', 204, Array)
+#1 C:\xampp\htdocs\ci4\app\Controllers\Hitung.php(204): array_push(NULL, Array)
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Hitung->matrix_sub()
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hitung))
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-06-19 06:11:07 --> array_push() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_push() ex...', 'C:\\xampp\\htdocs...', 206, Array)
+#1 C:\xampp\htdocs\ci4\app\Controllers\Hitung.php(206): array_push(NULL, Array)
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Hitung->matrix_sub()
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hitung))
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}

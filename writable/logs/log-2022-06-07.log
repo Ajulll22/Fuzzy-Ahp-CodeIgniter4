@@ -1,0 +1,43 @@
+CRITICAL - 2022-06-07 04:04:46 --> Undefined variable: dd
+#0 C:\xampp\htdocs\ci4\app\Controllers\Hitung.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Hitung->fuzzy_matrix()
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hitung))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-07 04:12:21 --> syntax error, unexpected 'dd' (T_STRING)
+#0 C:\xampp\htdocs\ci4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('hitung/fuzzy_ma...')
+#1 C:\xampp\htdocs\ci4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('hitung/fuzzy_ma...')
+#2 C:\xampp\htdocs\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-07 06:42:05 --> The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence
+#0 C:\xampp\htdocs\ci4\system\View\View.php(210): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'The behavior of...', 'C:\\xampp\\htdocs...', 110, Array)
+#1 C:\xampp\htdocs\ci4\system\View\View.php(210): include()
+#2 C:\xampp\htdocs\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4\system\Common.php(1089): CodeIgniter\View\View->render('hitung/index', Array, true)
+#4 C:\xampp\htdocs\ci4\app\Controllers\Hitung.php(23): view('hitung/index', Array)
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Hitung->index()
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hitung))
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-06-07 09:31:34 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-06-07 09:31:34 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ci4\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ci4\app\Controllers\Hitung.php(18): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Hitung->index()
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hitung))
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
