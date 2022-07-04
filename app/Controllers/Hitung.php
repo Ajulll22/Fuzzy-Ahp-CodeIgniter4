@@ -445,7 +445,22 @@ class Hitung extends BaseController
         }
 
 
-        dd($data_akhir);
+        // dd($data_akhir);
+
+        $sortColumn = ['hasil'];
+        foreach($sortColumn as $column){
+        usort($data_akhir, function($a, $b) use ($column){
+            return $a[$column] < $b[$column];
+        });  
+        }
+
+        $data = [
+            'title' => "FAHP - Kriteria",
+            'head' => "Data Kriteria",
+            'alternatif' => $data_akhir
+        ];
+
+        return view('hitung/hasilakhir', $data);
 
     }
 
