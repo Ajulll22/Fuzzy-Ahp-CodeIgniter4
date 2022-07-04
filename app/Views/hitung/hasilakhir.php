@@ -19,11 +19,12 @@
         </thead>
         <tbody>
           <?php $no = 1; ?>
-          <?php foreach ($kriteria as $row) : ?>
+          <?php foreach ($alternatif as $row) : ?>
             <tr>
               <td><?= $no++; ?></td>
-              <td><?= $row['kode_kriteria']; ?></td>
-              <td><?= $row['kriteria']; ?></td>
+              <td><?= $row['kode_alternatif']; ?></td>
+              <td><?= $row['alternatif']; ?></td>
+              <td><?= $row['hasil']; ?></td>
             </tr>
           <?php endforeach; ?>
         </tbody>
