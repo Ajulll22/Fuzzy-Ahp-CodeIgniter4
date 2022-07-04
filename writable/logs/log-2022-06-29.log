@@ -1,0 +1,57 @@
+CRITICAL - 2022-06-29 08:21:51 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\Fuzzy-Ahp-CodeIgniter4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Fuzzy-Ahp-CodeIgniter4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Fuzzy-Ahp-CodeIgniter4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Fuzzy-Ahp-CodeIgniter4\spark(45): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-06-29 08:23:22 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\CI4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\CI4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\CI4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\CI4\spark(45): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-06-29 01:26:34 --> Undefined variable: kriteria
+#0 C:\xampp\htdocs\CI4\app\Views\hitung\hasilakhir.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\CI4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI4\system\Common.php(1089): CodeIgniter\View\View->render('hitung/hasilakh...', Array, true)
+#4 C:\xampp\htdocs\CI4\app\Controllers\Hitung.php(459): view('hitung/hasilakh...', Array)
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(832): App\Controllers\Hitung->test()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hitung))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\CI4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-29 01:28:40 --> Undefined index: kode_kriteria
+#0 C:\xampp\htdocs\CI4\app\Views\hitung\hasilakhir.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\CI4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI4\system\Common.php(1089): CodeIgniter\View\View->render('hitung/hasilakh...', Array, true)
+#4 C:\xampp\htdocs\CI4\app\Controllers\Hitung.php(456): view('hitung/hasilakh...', Array)
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(832): App\Controllers\Hitung->hasil_akhir()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hitung))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\CI4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-29 01:33:02 --> usort() expects parameter 2 to be a valid callback, function 'hasil' not found or invalid function name
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'usort() expects...', 'C:\\xampp\\htdocs...', 453, Array)
+#1 C:\xampp\htdocs\CI4\app\Controllers\Hitung.php(453): usort(Array, 'hasil')
+#2 C:\xampp\htdocs\CI4\system\CodeIgniter.php(832): App\Controllers\Hitung->hasil_akhir()
+#3 C:\xampp\htdocs\CI4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hitung))
+#4 C:\xampp\htdocs\CI4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CI4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\CI4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-06-29 01:37:51 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\CI4\app\Views\hitung\hasilakhir.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\CI4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CI4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CI4\system\Common.php(1089): CodeIgniter\View\View->render('hitung/hasilakh...', Array, true)
+#4 C:\xampp\htdocs\CI4\app\Controllers\Hitung.php(458): view('hitung/hasilakh...', Array)
+#5 C:\xampp\htdocs\CI4\system\CodeIgniter.php(832): App\Controllers\Hitung->hasil_akhir()
+#6 C:\xampp\htdocs\CI4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hitung))
+#7 C:\xampp\htdocs\CI4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CI4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\CI4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
