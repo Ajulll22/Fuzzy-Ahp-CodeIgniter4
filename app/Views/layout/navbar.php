@@ -15,18 +15,13 @@
             </a>
         </li>
         <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-    <div class="image">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <img height=25pt width=25pt src="<?= base_url('assets'); ?>/images/default.png" class="img-circle elevation-2" alt="User Image">
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="/Auth/logout">Logout</a>
             </div>
-    </a>
-    <div class="dropdown-menu">
-    <div class="info">
-                <a href="#" class="d-block"><?= session()->get('username'); ?></a>
-            </div>
-      <a class="dropdown-item" href="/Auth">Logout</a>
-    </div>
-  </li>
+        </li>
     </ul>
 </nav>
 <!-- /.navbar -->
