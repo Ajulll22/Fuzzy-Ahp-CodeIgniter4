@@ -10,7 +10,7 @@
                 <!-- small box -->
                 <div class="small-box bg-info">
                     <div class="inner">
-                        <h4>-</h4>
+                        <h4><?php echo $count_krit ; ?></h4>
                         <p>Data Kriteria</p>
                     </div>
                     <div class="icon">
@@ -23,7 +23,7 @@
                 <!-- small box -->
                 <div class="small-box bg-success">
                     <div class="inner">
-                        <h4>-</h4>
+                        <h4><?php echo $count_sub ; ?></h4>
                         <p>Data Subkriteria</p>
                     </div>
                     <div class="icon">
@@ -36,7 +36,7 @@
                 <!-- small box -->
                 <div class="small-box bg-warning">
                     <div class="inner">
-                        <h4>-</h4>
+                        <h4><?php echo $count_alternatif ; ?></h4>
                         <p>Data Alternatif</p>
                     </div>
                     <div class="icon">
