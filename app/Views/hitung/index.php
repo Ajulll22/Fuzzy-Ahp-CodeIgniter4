@@ -56,12 +56,12 @@
                   <?php if ($cek == false) : ?>
                     <?php if ($i == $j) : ?>
                       <?php $cek = true; ?>
-                      <td><input type="number" name="<?= $i . '_' . $j; ?>" min=1 max=9 style="width:35px;" readonly value="1" id="<?= $i . '_' . $j; ?>" require/></td>
+                      <td><input type="number" name="<?= $i . '_' . $j; ?>" min=0 step="0.01" max=9 style="width:35px;" readonly value="1" id="<?= $i . '_' . $j; ?>" require/></td>
                       <?php continue; ?>
                     <?php endif; ?>
-                    <td><input type="text" name="<?= $i . '_' . $j; ?>" min=1 max=9 style="width:35px;" readonly id="<?= $i . '_' . $j; ?>" require /></td>
+                    <td><input type="text" name="<?= $i . '_' . $j; ?>" min=0 step="0.01" max=9 style="width:35px;" readonly id="<?= $i . '_' . $j; ?>" require /></td>
                   <?php else : ?>
-                    <td><input type="number" name="<?= $i . '_' . $j; ?>" min=1 max=9 style="width:35px;" id="<?= $i . '_' . $j; ?>" onkeyup="getInverse(this, event)" require /></td>
+                    <td><input type="number" name="<?= $i . '_' . $j; ?>" min=0 step="0.01" max=9 style="width:35px;" id="<?= $i . '_' . $j; ?>" onkeyup="getInverse(this, event)" require /></td>
                   <?php endif; ?>
                 <?php endfor; ?>
               </tr>
