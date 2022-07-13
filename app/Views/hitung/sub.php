@@ -57,12 +57,12 @@
                 <?php if ($cek == false) : ?>
                   <?php if ($k == $l) : ?>
                     <?php $cek = true; ?>
-                    <td><input type="number" name="<?=$sub. '_'. $k . '_' . $l; ?>" min=1 max=9 style="width:35px;" readonly value="1" id="<?= $sub. '_'. $k . '_' . $l; ?>" /></td>
+                    <td><input type="number" name="<?=$sub. '_'. $k . '_' . $l; ?>" min=1 step="0.01" max=9 style="width:35px;" readonly value="1" id="<?= $sub. '_'. $k . '_' . $l; ?>" /></td>
                     <?php continue; ?>
                   <?php endif; ?>
-                  <td><input type="text" name="<?= $sub. '_'. $k . '_' . $l; ?>" min=1 max=9 style="width:35px;" readonly id="<?= $sub. '_'. $k . '_' . $l; ?>" /></td>
+                  <td><input type="text" name="<?= $sub. '_'. $k . '_' . $l; ?>" min=1 step="0.01" max=9 style="width:35px;" readonly id="<?= $sub. '_'. $k . '_' . $l; ?>" /></td>
                 <?php else : ?>
-                  <td><input type="text" name="<?= $sub. '_'. $k . '_' . $l; ?>" min=1 max=9 style="width:35px;" id="<?= $sub. '_'. $k . '_' . $l; ?>" onkeyup="getInversSub(this, event)" /></td>
+                  <td><input type="text" name="<?= $sub. '_'. $k . '_' . $l; ?>" min=1 step="0.01" max=9 style="width:35px;" id="<?= $sub. '_'. $k . '_' . $l; ?>" onkeyup="getInversSub(this, event)" /></td>
                 <?php endif; ?>
               <?php endfor; ?>
             </tr>
