@@ -16,6 +16,8 @@ class Auth extends BaseController
     }
     public function validasi()
     {
+        $session = session();
+
         $user = new UserModel;
         $email = $this->request->getVar('email');
         $password = $this->request->getVar('password');
@@ -27,12 +29,12 @@ class Auth extends BaseController
         }
         if (password_verify($password, $row['password'])) {
             $data = [
-                'login' => TRUE,
                 'id' => $row['id'],
                 'username' => $row['username'],
                 'email' => $row['email'],
+                'login' => TRUE
             ];
-            session()->set($data);
+            $session->set($data);
             return redirect()->to('/Dashboard');
 
         }
@@ -41,8 +43,9 @@ class Auth extends BaseController
 
     public function logout()
     {
-        $this->session->destroy();
-        return redirect()->to(base_url('Auth'));
+        $session = session();
+        $session->destroy();
+        return redirect()->to('/auth');
     }
 }
     
